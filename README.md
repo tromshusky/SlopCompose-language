@@ -48,7 +48,7 @@ The compiler uses AI to generate *how* it is implemented.
 ---
 
 ## Example
-
+#### Hello World app
 ```ts
 type Utils = PromptModule<{
   prompt: "CLI based backend for a small Hello user!-program";
@@ -68,7 +68,7 @@ export type HelloWorldApp = Toplevel<{
   targetFilename: "hello.js";
 }>;
 ```
-
+#### schema for seamless integration with common .d.ts tools
 ```ts
 type PromptModule<T extends {
     /** Natural‑language instruction describing what this module should implement */
